@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Face Anonymizer
+# Face Anonymizer
 
 **Face Anonymizer** is a simple yet powerful Python tool that automatically detects faces in images, videos, or webcam streams and anonymizes them by applying blur.  
 It uses **MediaPipe Face Detection** for accurate and fast face localization and **OpenCV** for blurring.
@@ -65,23 +65,6 @@ python face_anonymizer.py --mode webcam
 ```
 - Opens webcam and anonymizes faces in real-time
 - Press `Ctrl + C` or close the window to stop
-
----
-
-## 📂 Project Structure
-
-```
-face-anonymizer/
-│
-├── face_anonymizer.py       # Main script
-├── data/
-│   ├── myimg.png            # Example input image
-│   ├── testvideo1.mp4       # Example input video
-│   └── output/              # Output folder (auto-created)
-│
-├── requirements.txt
-└── README.md
-```
 
 ---
 
